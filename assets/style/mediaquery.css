@@ -1,0 +1,732 @@
+@media (max-width:1400px){
+
+    .left-slider{
+        position: absolute;
+        top: 300px;
+        left: -60px;
+        padding: 5px 10px;
+        border: 1px solid #FFFFFF;
+        cursor: pointer;
+    }
+
+
+    .right-slider{
+        position: absolute;
+        top: 300px;
+        right: -60px;
+        padding: 5px 10px;
+        border: 1px solid #FFFFFF;
+        cursor: pointer;
+    }
+
+    .Ourproduct-conatiner h3{
+        margin: auto;
+        text-align: center;
+        font-weight: 40;
+        font-size: 50px;
+        line-height: 37.45px;
+        max-width:472px;
+        color: rgba(3, 20, 18, 1);
+    
+    }
+
+    .boxs-container{
+        margin-top: 30px;
+        max-width: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .Ourproduct-conatiner .box img{
+        width: 400px;
+
+        
+    }
+
+    .overlay{
+        bottom: 52px;
+        left: 48px;
+        width: 303px;
+        height: 50px;
+        
+    }
+
+    .box p{
+        font-size: 25px;
+        bottom: 60px;
+        left:60px;    
+    }
+
+
+    .BestSellingboxtext{
+        display: flex;
+        
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .BestSellingboxtext .child1{
+        max-width: 200px;
+        margin: auto;
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+@media (max-width:1200px){
+
+    .AllCONTAINER{
+        max-width: 900px;
+        margin: auto; 
+    
+    }
+    
+
+    .linksandimg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .socialnetworkIcons .heart,.socialnetworkIcons .user,.socialnetworkIcons .cart_shoop{
+        position: relative;
+        bottom: 50px;
+    }
+
+    .textandbtn{
+        max-width: 600px;
+    }
+
+    .left-slider {
+        display: none;
+    }
+    .right-slider {
+        display: none;
+    }
+
+    .navbar_content{
+        gap: 30px;
+        margin: auto;
+    }
+    .textandbtn h3{
+        position: relative;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 68.47px;
+        padding-bottom: 30px;
+    }
+
+    .textandbtn h3::after{
+        position: absolute;
+        content: '';
+        display: inline-block;
+        bottom: 10px;
+        left: 0px;
+        width: 388px;
+        height: 1px;
+        background: linear-gradient(90deg, #FFFFFF -0.02%, rgba(255, 255, 255, 0) 100.02%);
+    }
+
+    .textandbtn .Цена{
+        max-width: 180px;
+    }
+
+    .textandbtn .child1{
+        padding-top: 20px;
+        max-width: 357px;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 25.68px;
+    }
+
+    .textandbtn .child2, .textandbtn .child3{
+        font-size: 16px;
+    }
+
+    .textandbtn button{
+        max-width: 244px; 
+        padding: 20px 0px;
+    }
+
+    
+    .Ourproduct-conatiner h3{
+        margin: auto;
+        text-align: center;
+        font-weight: 40;
+        font-size: 24px;
+        line-height: 37.45px;
+        max-width:400px;
+        color: rgba(3, 20, 18, 1);
+    
+    }
+
+    .boxs-container{
+        margin-top: 30px;
+        max-width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .Ourproduct-conatiner .box img{
+        width: 251.41px;
+
+        
+    }
+
+    .overlay{
+        bottom: 34px;
+        left: 30px;
+        width: 191px;
+        height: 50px;
+        
+    }
+
+    .box p{
+        font-size: 12px;
+        bottom: 45px;
+        left:60px;    
+    }
+
+    .BestSellingbox img{
+        max-width: 250px;
+    }
+
+    .BestSelling-conatiner h3{
+        padding-top: 30px;
+        font-family: Lighthaus;
+        margin: auto;
+        text-align: center;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 37.45px;
+        max-width: 600px;
+        color: rgba(3, 20, 18, 1);
+    
+    }
+
+    .BestSellingleft-slider,.BestSellingright-slider{
+        display: none;
+    }
+    
+    .hearticon{
+        top: 30px;
+        left: 188px;
+    }
+    .BestSellingboxtext{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        max-width: 350px;
+    }
+
+    .BestSellingboxtext .child1{
+        max-width: 200px;
+        margin: auto;
+
+    }
+}
+@media (max-width:992px){
+
+    .AllCONTAINER{
+        max-width: 750px;
+        margin: auto; 
+    
+    }
+    
+
+    .linksandimg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .socialnetworkIcons .heart,.socialnetworkIcons .user,.socialnetworkIcons .cart_shoop{
+        position: relative;
+        bottom: 50px;
+    }
+
+    .textandbtn{
+        max-width: 600px;
+    }
+
+    .left-slider {
+        display: none;
+    }
+    .right-slider {
+        display: none;
+    }
+
+    .navbar_content{
+        gap: 30px;
+        margin: auto;
+    }
+    .textandbtn h3{
+        position: relative;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 68.47px;
+        padding-bottom: 30px;
+    }
+
+    .textandbtn h3::after{
+        position: absolute;
+        content: '';
+        display: inline-block;
+        bottom: 10px;
+        left: 0px;
+        width: 388px;
+        height: 1px;
+        background: linear-gradient(90deg, #FFFFFF -0.02%, rgba(255, 255, 255, 0) 100.02%);
+    }
+
+    .textandbtn .Цена{
+        max-width: 180px;
+    }
+
+    .textandbtn .child1{
+        padding-top: 20px;
+        max-width: 357px;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 25.68px;
+    }
+
+    .textandbtn .child2, .textandbtn .child3{
+        font-size: 16px;
+    }
+
+    .textandbtn button{
+        max-width: 244px; 
+        padding: 10px 0px;
+    }
+
+    .Ourproduct-conatiner h3{
+        margin: auto;
+        text-align: center;
+        font-weight: 40;
+        font-size: 24px;
+        line-height: 37.45px;
+        max-width:400px;
+        color: rgba(3, 20, 18, 1);
+    
+    }
+
+    .boxs-container{
+        margin-top: 30px;
+        max-width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .Ourproduct-conatiner .box img{
+        width: 251.41px;
+
+        
+    }
+
+    .overlay{
+        bottom: 34px;
+        left: 30px;
+        width: 191px;
+        height: 50px;
+        
+    }
+
+    .box p{
+        font-size: 12px;
+        bottom: 45px;
+        left:60px;    
+    }
+
+
+    .BestSellingbox img{
+        max-width: 250px;
+    }
+
+    .BestSelling-conatiner h3{
+        padding-top: 30px;
+        font-family: Lighthaus;
+        margin: auto;
+        text-align: center;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 37.45px;
+        max-width: 600px;
+        color: rgba(3, 20, 18, 1);
+    
+    }
+
+    .BestSellingleft-slider,.BestSellingright-slider{
+        display: none;
+    }
+    
+    .hearticon{
+        top: 30px;
+        left: 188px;
+    }
+    .BestSellingboxtext{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        max-width: 350px;
+    }
+
+
+    .BestSellingboxtext .child1{
+        max-width: 200px;
+        margin: auto;
+
+    }
+}
+
+@media (max-width:768px){
+
+    .AllCONTAINER{
+        max-width: 600px;
+        margin: auto;
+    
+    }
+
+    .links a{
+        display: none;
+    }
+
+    .navbar_bars{
+        position: relative;
+        padding: 10px 20px;
+        bottom: 20px;
+        left: 60px;
+        color: #FFFFFF;
+        background: linear-gradient(92.09deg, #5E3928 -79.4%, #E4A16F 84.12%);
+        display: block;
+    }
+
+    .left-slider {
+        display: none;
+    }
+    .right-slider {
+        display: none;
+    }
+
+    .navbar_content{
+        gap: 30px;
+        margin: auto;
+    }
+
+    .socialnetworkIcons .heart,.socialnetworkIcons .user,.socialnetworkIcons .cart_shoop{
+        position: relative;
+        bottom: 30px;
+    }
+
+
+    .textandbtn h3{
+        position: relative;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 34.47px;
+    }
+
+    .textandbtn h3::after{
+        position: absolute;
+        content: '';
+        display: inline-block;
+        bottom: 10px;
+        left: 0px;
+        width: 199px;
+        height: 1px;
+        background: linear-gradient(90deg, #FFFFFF -0.02%, rgba(255, 255, 255, 0) 100.02%);
+    }
+
+    .textandbtn .Цена{
+        max-width: 180px;
+    }
+
+    .textandbtn .child1{
+        max-width: 188px;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25.68px;
+    }
+
+    .textandbtn .child2, .textandbtn .child3{
+        font-size: 16px;
+    }
+
+    .textandbtn button{
+        max-width: 200px; 
+        padding: 20px 0px;
+    }
+
+    .Ourproduct-conatiner h3{
+        margin: auto;
+        text-align: center;
+        font-weight: 40;
+        font-size: 24px;
+        line-height: 37.45px;
+        max-width:400px;
+        color: rgba(3, 20, 18, 1);
+    
+    }
+
+    .boxs-container{
+        margin-top: 30px;
+        max-width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .Ourproduct-conatiner .box img{
+        width: 135px;
+
+        
+    }
+
+    .overlay{
+        bottom: 20px;
+        left: 17px;
+        width: 100px;
+        height: 50px;
+        
+    }
+
+    .box p{
+        font-size: 12px;
+        bottom: 25px;
+        left:25px;    
+    }
+
+    .BestSellingboxs-container #box_3{
+        display: none;
+    }
+
+    .BestSellingbox img{
+        max-width: 250px;
+    }
+
+    .BestSelling-conatiner h3{
+        padding-top: 30px;
+        font-family: Lighthaus;
+        margin: auto;
+        text-align: center;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 37.45px;
+        max-width: 600px;
+        color: rgba(3, 20, 18, 1);
+    
+    }
+    
+    .BestSellingleft-slider,.BestSellingright-slider{
+        display: none;
+    }
+
+    .hearticon{
+        top: 30px;
+        left: 188px;
+    }
+    .BestSellingboxtext{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        max-width: 350px;
+    }
+
+    .BestSellingboxtext .child1{
+        font-size: 15px;
+        max-width: 200px;
+        text-align: center;
+        margin: auto;
+
+    }
+
+}
+
+
+
+@media (max-width:576px){
+
+    .AllCONTAINER{
+        max-width: 300px;
+        margin: auto;
+    
+    }
+
+    .links a{
+        display: none;
+    }
+
+    .navbar_bars{
+        position: relative;
+        padding: 10px 30px;
+        left: -10px;
+        color: #FFFFFF;
+        background: linear-gradient(92.09deg, #5E3928 -79.4%, #E4A16F 84.12%);
+        display: block;
+    }
+
+    .left-slider {
+        display: none;
+    }
+    .right-slider {
+        display: none;
+    }
+
+    .navbar_content{
+        max-width: 400px;
+        gap: 30px;
+        margin: auto;
+    }
+
+    .socialnetworkIcons .heart,.socialnetworkIcons .user,.socialnetworkIcons .cart_shoop{
+        display: none;
+    }
+    
+
+    
+
+    .textandbtn h3{
+        position: relative;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 34.47px;
+    }
+
+    .textandbtn h3::after{
+        position: absolute;
+        content: '';
+        display: inline-block;
+        bottom: 10px;
+        left: 0px;
+        width: 199px;
+        height: 1px;
+        background: linear-gradient(90deg, #FFFFFF -0.02%, rgba(255, 255, 255, 0) 100.02%);
+    }
+
+    .textandbtn .Цена{
+        max-width: 180px;
+    }
+
+    .textandbtn .child1{
+        max-width: 188px;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25.68px;
+    }
+
+    .textandbtn .child2, .textandbtn .child3{
+        font-size: 16px;
+    }
+
+    .textandbtn button{
+        max-width: 150px; 
+        padding: 10px 0px;
+    }
+
+    .Ourproduct-conatiner h3{
+        margin: auto;
+        text-align: center;
+        font-weight: 40;
+        font-size: 24px;
+        line-height: 37.45px;
+        max-width:400px;
+        color: rgba(3, 20, 18, 1);
+    
+    }
+
+    .boxs-container{
+        margin-top: 30px;
+        max-width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .Ourproduct-conatiner .box img{
+        width: 135px;
+
+        
+    }
+
+    .overlay{
+        bottom: 20px;
+        left: 17px;
+        width: 100px;
+        height: 50px;
+        
+    }
+
+    .box p{
+        font-size: 12px;
+        bottom: 25px;
+        left:25px;    
+    }
+
+
+    .BestSellingboxs-container #box_3{
+        display: none;
+    }
+
+    .BestSellingbox img{
+        max-width: 190px;
+    }
+
+    .BestSelling-conatiner h3{
+        padding-top: 30px;
+        font-family: Lighthaus;
+        margin: auto;
+        text-align: center;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 37.45px;
+        max-width: 600px;
+        color: rgba(3, 20, 18, 1);
+    
+    }
+    .BestSellingleft-slider,.BestSellingright-slider{
+        display: none;
+    }
+
+    .hearticon{
+        top: 22px;
+        left: 135px;
+    }
+    
+
+    .BestSellingboxtext .child1{
+        font-size: 15px;
+        max-width: 200px;
+        text-align: center;
+        margin: auto;
+
+    }
+}
