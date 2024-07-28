@@ -1,181 +1,552 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/style/style.css">
-    <link rel="stylesheet" href="./assets/style/mediaquery.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link rel="stylesheet" href="./assets/style/mediaquery.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header>
-        <div class="AllCONTAINER">
-            <nav>
-                <div class="navbar_content">
-
-                    <div class="left-slider">
-                        <i class="fa-solid fa-angle-left"></i>
-                    </div>
-                    <div class="right-slider">
-                        <i class="fa-solid fa-angle-right"></i>
-                    </div>
-                    
-                    <div class="linksandimg">
-                        <div class="logo"><img src="./assets/img/copper_logo.svg" alt=""></div>
-                        <div class="links">
-                            <a href="#">Каталог</a>
-                            <a href="#">Новости</a>
-                            <a href="#">Доставка</a>
-                            <a href="#">О нас</a>
-                            <a href="#">Контакты</a>
-
-                        </div>
-                    </div>
-                    <div class="socialnetworkIcons">
-                        <div class="heart">
-                            <a href="">
-                                <i class="fa-regular fa-heart"></i>
-                            </a>
-                        </div>
-                        <div class="user">
-                            <a href="">
-                                <i class="fa-regular fa-user"></i>
-                            </a>
-                        </div>
-                        <div class="cart_shoop">
-                            <a href="">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </a>
-                        </div>
-    
-                    </div>
-
-                    <div class="navbar_bars">
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
-                </div>
-            </nav>
-            <div class="textandbtn">
-                <h3>Хит продаж</h3>
-                <p class="child1">Дистиллятор для эфирных масел </p>
-                <div class="Цена">
-                  <p class="child2">Цена</p>
-                  <p class="child3">4 906 грн</p>
-                </div>
-                <button>Купить</button>
+      <div class="AllCONTAINER">
+        <nav>
+          <div class="navbar_content">
+            <div class="left-slider">
+              <i class="fa-solid fa-angle-left"></i>
             </div>
-            <div class="sidebar-content">
-                <div class="boxs">
-                    <div class="box" id="box1"></div>
-                    <div class="box" id="box2"></div>
-                    <div class="box" id="box3"></div>
-    
-
-                </div>
-                <div class="mause_left-right">
-                    <img src="./assets/img/mouse.svg" alt="">
-
-                </div>
-
+            <div class="right-slider">
+              <i class="fa-solid fa-angle-right"></i>
             </div>
 
+            <div class="linksandimg">
+              <div class="logo">
+                <img src="./assets/img/copper_logo.svg" alt="" />
+              </div>
+              <div class="links">
+                <a href="#">Каталог</a>
+                <a href="#">Новости</a>
+                <a href="#">Доставка</a>
+                <a href="#">О нас</a>
+                <a href="#">Контакты</a>
+              </div>
+            </div>
+            <div class="socialnetworkIcons">
+              <div class="heart">
+                <a href="">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="user">
+                <a href="">
+                  <i class="fa-regular fa-user"></i>
+                </a>
+              </div>
+              <div class="cart_shoop">
+                <a href="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="navbar_bars">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </nav>
+        <div class="textandbtn">
+          <h3>Хит продаж</h3>
+          <p class="child1">Дистиллятор для эфирных масел</p>
+          <div class="Цена">
+            <p class="child2">Цена</p>
+            <p class="child3">4 906 грн</p>
+          </div>
+          <button>Купить</button>
         </div>
-
-
+        <div class="sidebar-content">
+          <div class="boxs">
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+          </div>
+          <div class="mause_left-right">
+            <img src="./assets/img/mouse.svg" alt="" />
+          </div>
+        </div>
+      </div>
     </header>
     <main>
-        <div class="Ourproduct-conatiner">
-            <h3>Наша продукция</h3>
-            <div class="boxs-container">
-                <div class="box">
-                    <img src="./assets/img/box_1.svg" alt="" width="446">
-                    <p>Для эфирных масел</p>
-                    <div class="overlay"></div>
-                </div>
-                <div class="box" id="box_1">
-                    <img src="./assets/img/box_1.svg" alt="" width="446">
-                    <p>Для эфирных масел</p>
-                    <div class="overlay"></div>
-                </div>
-                <div class="box" id="box_2">
-                    <img src="./assets/img/box_1.svg" alt="" width="446">
-                    <p>Для эфирных масел</p>
-                    <div class="overlay"></div>
-                </div>
-                <div class="box" id="box_3">
-                    <img src="./assets/img/box_1.svg" alt="" width="446">
-                    <p>Для эфирных масел</p>
-                    <div class="overlay"></div>
-                </div>
-                <div class="box" id="box_4">
-                    <img src="./assets/img/box_1.svg" alt="" width="446">
-                    <p>Для эфирных масел</p>
-                    <div class="overlay"></div>
-                </div>
-                <div class="box" id="box_5">
-                    <img src="./assets/img/box_1.svg" alt="" width="446">
-                    <p>Для эфирных масел</p>
-                    <div class="overlay"></div>
-                </div>
-
-            </div>
-
+      <div class="Ourproduct-conatiner">
+        <h3>Наша продукция</h3>
+        <div class="boxs-container">
+          <div class="box">
+            <img src="./assets/img/box_1.svg" alt="" width="446" />
+            <p>Для эфирных масел</p>
+            <div class="overlay"></div>
+          </div>
+          <div class="box" id="box_1">
+            <img src="./assets/img/box_1.svg" alt="" width="446" />
+            <p>Для эфирных масел</p>
+            <div class="overlay"></div>
+          </div>
+          <div class="box" id="box_2">
+            <img src="./assets/img/box_1.svg" alt="" width="446" />
+            <p>Для эфирных масел</p>
+            <div class="overlay"></div>
+          </div>
+          <div class="box" id="box_3">
+            <img src="./assets/img/box_1.svg" alt="" width="446" />
+            <p>Для эфирных масел</p>
+            <div class="overlay"></div>
+          </div>
+          <div class="box" id="box_4">
+            <img src="./assets/img/box_1.svg" alt="" width="446" />
+            <p>Для эфирных масел</p>
+            <div class="overlay"></div>
+          </div>
+          <div class="box" id="box_5">
+            <img src="./assets/img/box_1.svg" alt="" width="446" />
+            <p>Для эфирных масел</p>
+            <div class="overlay"></div>
+          </div>
         </div>
-        <div class="BestSelling-conatiner">
-            <h3>Лучшие продажи</h3>
-            <div class="BestSellingleft-slider">
+      </div>
+      <div class="BestSelling-conatiner">
+        <h3>Лучшие продажи</h3>
+        <!-- <div class="BestSellingleft-slider">
                 <i class="fa-solid fa-angle-left"></i>
             </div>
             <div class="BestSellingright-slider">
                 <i class="fa-solid fa-angle-right"></i>
+            </div> -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="BestSellingbox" id="box_1">
+                <img src="./assets/img/box_1.svg" alt="" width="446" />
+                <div class="hearticon"><i class="fa-solid fa-heart"></i></div>
+                <div class="BestSellingboxtext">
+                  <p class="child1">Медный чайник с фарфоровой ручкой</p>
+                  <p class="child2">4 906 грн</p>
+                </div>
+              </div>
+              <div class="BestSellingbox" id="box_2">
+                <img src="./assets/img/box_1.svg" alt="" width="446" />
+                <div class="hearticon"><i class="fa-solid fa-heart"></i></div>
+                <div class="BestSellingboxtext">
+                  <p class="child1">Медный чайник с фарфоровой ручкой</p>
+                  <p class="child2">4 906 грн</p>
+                </div>
+              </div>
+              <div class="BestSellingbox" id="box_3">
+                <img src="./assets/img/box_1.svg" alt="" width="446" />
+                <div class="hearticon"><i class="fa-solid fa-heart"></i></div>
+                <div class="BestSellingboxtext">
+                  <p class="child1">Медный чайник с фарфоровой ручкой</p>
+                  <p class="child2">4 906 грн</p>
+                </div>
+              </div>
             </div>
-            <div class="BestSellingboxs-container">
-                <div class="BestSellingbox" id="box_1">
-                    <img src="./assets/img/box_1.svg" alt="" width="446">
-                    <div class="hearticon"><i class="fa-solid fa-heart"></i></div>
-                    <div class="BestSellingboxtext">
-                        <p class="child1">Медный чайник с фарфоровой ручкой</p>
-                        <p class="child2">4 906 грн</p>
-                    </div>
-                </div>
-                <div class="BestSellingbox" id="box_2">
-                    <img src="./assets/img/box_1.svg" alt="" width="446">
-                    <div class="hearticon"><i class="fa-solid fa-heart"></i></div>
-                    <div class="BestSellingboxtext">
-                        <p class="child1">Медный чайник с фарфоровой ручкой</p>
-                        <p class="child2">4 906 грн</p>
-                    </div>
-                </div>
-                <div class="BestSellingbox" id="box_3">
-                    <img src="./assets/img/box_1.svg" alt="" width="446">
-                    <div class="hearticon"><i class="fa-solid fa-heart"></i></div>
-                    <div class="BestSellingboxtext">
-                        <p class="child1">Медный чайник с фарфоровой ручкой</p>
-                        <p class="child2">4 906 грн</p>
-                    </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
 
-                </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+        <div class="BestSellingboxandbtn">
+          <div class="BestSellingboxs">
+            <div class="BestSellingbox" id="BestSellingbox1"></div>
+            <div class="BestSellingbox" id="BestSellingbox2"></div>
+            <div class="BestSellingbox" id="BestSellingbox3"></div>
+          </div>
+          <button>Перейти в каталог</button>
+        </div>
+      </div>
+      <div class="newitems-conatiner">
+        <h3>новинки</h3>
+        <!-- <div class="BestSellingleft-slider">
+                <i class="fa-solid fa-angle-left"></i>
             </div>
-            <div class="BestSellingboxandbtn">
-                <div class="BestSellingboxs">
-                    <div class="BestSellingbox" id="BestSellingbox1"></div>
-                    <div class="BestSellingbox" id="BestSellingbox2"></div>
-                    <div class="BestSellingbox" id="BestSellingbox3"></div>
+            <div class="BestSellingright-slider">
+                <i class="fa-solid fa-angle-right"></i>
+            </div> -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="BestSellingbox" id="box_1">
+                <img src="./assets/img/box_1.svg" alt="" width="446" />
+                <div class="hearticon"><i class="fa-solid fa-heart"></i></div>
+                <div class="BestSellingboxtext">
+                  <p class="child1">Медный чайник с фарфоровой ручкой</p>
+                  <div class="prices">
+                    <p class="child2_3">1 953 грн</p>
+                    <p class="child2">4 906 грн</p>
+                  </div>
+                </div>
+              </div>
+              <div class="BestSellingbox" id="box_2">
+                <img src="./assets/img/box_1.svg" alt="" width="446" />
+                <div class="hearticon"><i class="fa-solid fa-heart"></i></div>
+                <div class="BestSellingboxtext">
+                  <p class="child1">Медный чайник с фарфоровой ручкой</p>
+                  <p class="child2">4 906 грн</p>
+                </div>
+              </div>
+              <div class="BestSellingbox" id="box_3">
+                <img src="./assets/img/box_1.svg" alt="" width="446" />
+                <div class="hearticon"><i class="fa-solid fa-heart"></i></div>
+                <div class="BestSellingboxtext">
+                  <p class="child1">Медный чайник с фарфоровой ручкой</p>
+                  <p class="child2">4 906 грн</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+        <div class="BestSellingboxandbtn">
+          <div class="BestSellingboxs">
+            <div class="BestSellingbox" id="BestSellingbox1"></div>
+            <div class="BestSellingbox" id="BestSellingbox2"></div>
+            <div class="BestSellingbox" id="BestSellingbox3"></div>
+          </div>
+          <button>Перейти в каталог</button>
+        </div>
+      </div>
+      <div class="werecommend-conatiner">
+        <h3>мы рекомендуем</h3>
+        <!-- <div class="BestSellingleft-slider">
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="BestSellingright-slider">
+                <i class="fa-solid fa-angle-right"></i>
+            </div> -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="BestSellingbox" id="box_1">
+                <img src="./assets/img/box_1.svg" alt="" width="446" />
+                <div class="hearticon"><i class="fa-solid fa-heart"></i></div>
+                <div class="BestSellingboxtext">
+                  <p class="child1">Медный чайник с фарфоровой ручкой</p>
+                  <div class="prices">
+                    <p class="child2">4 906 грн</p>
+                  </div>
+                </div>
+              </div>
+              <div class="BestSellingbox" id="box_2">
+                <img src="./assets/img/box_1.svg" alt="" width="446" />
+                <div class="hearticon"><i class="fa-solid fa-heart"></i></div>
+                <div class="BestSellingboxtext">
+                  <p class="child1">Медный чайник с фарфоровой ручкой</p>
+                  <p class="child2">4 906 грн</p>
+                </div>
+              </div>
+              <div class="BestSellingbox" id="box_3">
+                <img src="./assets/img/box_1.svg" alt="" width="446" />
+                <div class="hearticon"><i class="fa-solid fa-heart"></i></div>
+                <div class="BestSellingboxtext">
+                  <p class="child1">Медный чайник с фарфоровой ручкой</p>
+                  <p class="child2">4 906 грн</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+        <div class="BestSellingboxandbtn">
+          <div class="BestSellingboxs">
+            <div class="BestSellingbox" id="BestSellingbox1"></div>
+            <div class="BestSellingbox" id="BestSellingbox2"></div>
+            <div class="BestSellingbox" id="BestSellingbox3"></div>
+          </div>
+          <button>Перейти в каталог</button>
+        </div>
+      </div>
+      <div class="comment-conatiner">
+        <h3>Что думают о нас</h3>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="commentbox" id="box_1">
+                <img src="./assets/img/comment-random.svg" alt="" />
+                <img src="./assets/img/Union.png" alt="" />
+                <div class="commentboxtext">
+                  <p class="commentboxChild1">Иван Иванов</p>
+                  <p class="commentboxChild2">
+                    Наше оборудование прозводится вручную. Мы постоянно
+                    производим контроль качества произведенной продукции. В то
+                    же время, если в ходе транспортировки или эксплуатации в
+                    течении первых 2 лет происходят поломки, мы всегда находим с
+                    клиентом наиболее удобный вариант решения вопроса.
+                  </p>
+                  <p class="commentboxChild3">20.10.21</p>
+                </div>
+              </div>
+              <div class="commentbox" id="box_2">
+                <img src="./assets/img/comment-random.svg" alt="" />
+                <img src="./assets/img/Union.png" alt="" />
+                <div class="commentboxtext">
+                  <p class="commentboxChild1">Иван Иванов</p>
+                  <p class="commentboxChild2">
+                    Наше оборудование прозводится вручную. Мы постоянно
+                    производим контроль качества произведенной продукции. В то
+                    же время, если в ходе транспортировки или эксплуатации в
+                    течении первых 2 лет происходят поломки, мы всегда находим с
+                    клиентом наиболее удобный вариант решения вопроса.
+                  </p>
+                  <p class="commentboxChild3">20.10.21</p>
+                </div>
+              </div>
+              <div class="commentbox" id="box_3">
+                <img src="./assets/img/comment-random.svg" alt="" />
+                <img src="./assets/img/Union.png" alt="" />
+                <div class="commentboxtext">
+                  <p class="commentboxChild1">Иван Иванов</p>
+                  <p class="commentboxChild2">
+                    Наше оборудование прозводится вручную. Мы постоянно
+                    производим контроль качества произведенной продукции. В то
+                    же время, если в ходе транспортировки или эксплуатации в
+                    течении первых 2 лет происходят поломки, мы всегда находим с
+                    клиентом наиболее удобный вариант решения вопроса.
+                  </p>
+                  <p class="commentboxChild3">20.10.21</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+        <div class="commentboxandbtn">
+          <button>Перейти в каталог</button>
+        </div>
+      </div>
+
+      <div class="Whychooseus-container">
+        <h3>Почему выбирают нас</h3>
+        <div class="Whychooseus-boxs">
+          <div class="Whychooseus-box">
+            <div class="starbg">
+              <img src="./assets/img/star.png" alt="" />
+            </div>
+            <h4>Аутентичность</h4>
+            <p>
+              Медное перегонное оборудование используется для получения эфирных
+              масел с незапамятных времен.
+            </p>
+            <a href="">
+              Читать больше
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+          </div>
+          <div class="Whychooseus-box">
+            <div class="starbg">
+              <img src="./assets/img/eye.png" alt="" />
+            </div>
+            <h4>Изысканность</h4>
+            <p>
+              Медное перегонное оборудование используется для получения эфирных
+              масел с незапамятных времен.
+            </p>
+            <a href="">
+              Читать больше
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+          </div>
+          <div class="Whychooseus-box">
+            <div class="starbg">
+              <img src="./assets/img/Raise-Money.png" alt="" />
+            </div>
+            <h4>Честная оплата</h4>
+            <p>
+              Медное перегонное оборудование используется для получения эфирных
+              масел с незапамятных времен.
+            </p>
+            <a href="">
+              Читать больше
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+          </div>
+          <div class="Whychooseus-box">
+            <div class="starbg">
+              <img src="./assets/img/flask.png" alt="" />
+            </div>
+            <h4>Большой ассортимент</h4>
+            <p>
+              Медное перегонное оборудование используется для получения эфирных
+              масел с незапамятных времен.
+            </p>
+            <a href="">
+              Читать больше
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+          </div>
+          <div class="Whychooseus-box">
+            <div class="starbg">
+              <img src="./assets/img/hands.png" alt="" />
+            </div>
+            <h4>Доставка по всему миру</h4>
+            <p>
+              Медное перегонное оборудование используется для получения эфирных
+              масел с незапамятных времен.
+            </p>
+            <a href="">
+              Читать больше
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+          </div>
+          <div class="Whychooseus-box">
+            <div class="starbg">
+              <img src="./assets/img/shield.png" alt="" />
+            </div>
+            <h4>Гарантия качества</h4>
+            <p>
+              Медное перегонное оборудование используется для получения эфирных
+              масел с незапамятных времен.
+            </p>
+            <a href="">
+              Читать больше
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+          </div>
+          <div class="Whychooseus-box">
+            <div class="starbg">
+              <img src="./assets/img/potion.png" alt="" />
+            </div>
+            <h4>Удобство в использовании</h4>
+            <p>
+              Медное перегонное оборудование используется для получения эфирных
+              масел с незапамятных времен.
+            </p>
+            <a href="">
+              Читать больше
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+          </div>
+          <div class="Whychooseus-box">
+            <div class="starbg">
+              <img src="./assets/img/landscape.png" alt="" />
+            </div>
+            <h4>Забота об окружающей среде</h4>
+            <p>
+              Медное перегонное оборудование используется для получения эфирных
+              масел с незапамятных времен.
+            </p>
+            <a href="">
+              Читать больше
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+
+          <div class="footer-content1">
+            <img src="/assets/img/copper_logo.svg" alt="">
+            <p>© 2021 “Copper Pro”Все права защищенны</p>
+            <p>Политика конфиденциальности</p>  
     
-                    
-    
+          </div>
+          
+              <div class="footer-content2">
+                <div class="link_1">
+                  <h3>Навигация</h3>
+                  <a href="#">Каталог</a>
+                  <a href="#">Новости</a>
+                  <a href="#">Доставка</a>
+                  <a href="#">О нас</a>
+                  <a href="#">Контакты</a>  
                 </div>
-                <button>Перейти в каталог</button>
-
-            </div>
-
+                <div class="link_2">
+                  <h3>Каталог</h3>
+                  <a href="#">Для эфирных масел</a>
+                  <a href="#">Для гидролатов</a>
+                  <a href="#">Медная посуда</a>
+                  <a href="#">Аксессуары из меди</a>
+                  <a href="#">Индивидуальный заказ</a>  
+                  <a href="#">Скидки и предложения</a>  
+                </div>
+                <div class="link_3">
+                  <h3>Каталог</h3>
+                  <p>Бажана 8-Б, Киев, 02132 Украина</p>
+                  <p>+38 (096) 990 67 56</p>
+                  <p>a.alambik@gmail.com</p>
+                  <div class="socialnetworkIconFooter">
+                    <a href="#">
+                      <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+    
+              </div>
 
         </div>
-
-    </main>
-
-
-    <script></script>
-</body>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
 </html>

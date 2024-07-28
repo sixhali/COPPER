@@ -74,6 +74,28 @@
 
     }
 
+    .comment-conatiner .swiper-slide{
+        display: flex;
+        gap: 30px;
+    
+    }
+
+    .comment-conatiner .commentbox{
+        max-width: 360px;
+        padding: 30px 30px;
+        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+        position: relative;
+    
+    }
+
+    .footer-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        max-width: 1200px;
+    }
+
 
 
 
@@ -242,7 +264,36 @@
         margin: auto;
 
     }
+
+    .swiper {
+        width: 100%;
+        height: 70vh;        
+    }
+    .swiper-slide{
+        max-width: 100%;
+        height: 10vh;
+        
+    }
+
+    .swiper-button-prev,.swiper-button-next{
+       display: none;
+    }
+
+    .comment-conatiner #box_3{
+        display: none;
+    }
+
+    .footer-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        max-width: 100vh;
+    }
+
 }
+
+
 @media (max-width:992px){
 
     .AllCONTAINER{
@@ -401,6 +452,98 @@
         margin: auto;
 
     }
+
+    .swiper {
+        width: 100%;
+        height: 65vh;        
+    }
+    .swiper-slide{
+        max-width: 100%;
+        height: 10vh;
+        
+    }
+    .swiper-button-prev,.swiper-button-next{
+       display: none;
+    }
+
+    .comment-conatiner .commentbox{
+        max-width: 324.41px;
+        margin-bottom: 30px;
+        padding: 30px 30px;
+        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+        position: relative;
+    
+    }
+
+    .comment-conatiner #box_3{
+        display: none;
+    }
+
+    .commentbox .commentboxChild2{
+        font-weight: 100;
+        font-size: 14px;
+    
+    }
+
+    .comment-conatiner h3{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 17.45px;
+        max-width: 252px;
+    }
+
+    .comment-conatiner h3{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 17.45px;
+        max-width: 252px;
+    }
+
+
+    .Whychooseus-boxs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .Whychooseus-container h3{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 31.45px;
+        max-width: 290px;
+    
+    }
+
+    .Whychooseus-boxs .Whychooseus-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 327px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        cursor: pointer;
+      
+    
+    }
+    
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: flex-start;
+        margin: auto;
+        max-width:70vh;
+    }
+
+    .footer-content2{
+        display: flex;
+        width:100%;
+
+    }
+
 }
 
 @media (max-width:768px){
@@ -521,12 +664,13 @@
         left:25px;    
     }
 
-    .BestSellingboxs-container #box_3{
+    .swiper #box_2,.swiper #box_3{
         display: none;
     }
 
+
     .BestSellingbox img{
-        max-width: 250px;
+        max-width: 400px;
     }
 
     .BestSelling-conatiner h3{
@@ -547,8 +691,8 @@
     }
 
     .hearticon{
-        top: 30px;
-        left: 188px;
+        top: 48px;
+        left: 320px;
     }
     .BestSellingboxtext{
         display: flex;
@@ -567,10 +711,113 @@
         margin: auto;
 
     }
+    .swiper {
+        width: 100%;
+        height: 90vh;
+    }
+
+    .swiper-slide{
+        max-width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .swiper-button-prev,.swiper-button-next{
+       display: none;
+    }
+
+    .newitems-conatiner h3{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 17.45px;
+    
+    }
+
+    .werecommend-conatiner h3{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 29.96px;
+        max-width: 423px;
+    }
+
+    .comment-conatiner .commentbox{
+        max-width: 290.41px;
+        margin-bottom: 30px;
+        padding: 30px 30px;
+        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+        position: relative;
+    
+    }
+
+    .commentbox .commentboxChild2{
+        font-weight: 100;
+        font-size: 14px;
+    
+    }
+
+    .comment-conatiner h3{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 17.45px;
+        max-width: 252px;
+    }
+
+    .comment-conatiner h3{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 17.45px;
+        max-width: 252px;
+    }
+
+
+    .Whychooseus-boxs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        max-width: 610px;
+       
+    }
+
+    .Whychooseus-container h3{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 31.45px;
+        max-width: 290px;
+    
+    }
+
+    .Whychooseus-boxs .Whychooseus-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 180px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        cursor: pointer;
+      
+    
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        align-items: center;
+        max-width: 500px;
+    }
+
+    .footer-content2{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 200px;
+
+    }
 
 }
-
-
 
 @media (max-width:576px){
 
@@ -609,8 +856,6 @@
     .socialnetworkIcons .heart,.socialnetworkIcons .user,.socialnetworkIcons .cart_shoop{
         display: none;
     }
-    
-
     
 
     .textandbtn h3{
@@ -692,12 +937,12 @@
     }
 
 
-    .BestSellingboxs-container #box_3{
+    .swiper #box_2,.swiper #box_3{
         display: none;
     }
 
     .BestSellingbox img{
-        max-width: 190px;
+        max-width: 300px;
     }
 
     .BestSelling-conatiner h3{
@@ -716,9 +961,10 @@
         display: none;
     }
 
+
     .hearticon{
-        top: 22px;
-        left: 135px;
+        top: 35px;
+        left: 225px;
     }
     
 
@@ -727,6 +973,106 @@
         max-width: 200px;
         text-align: center;
         margin: auto;
+
+    }
+
+    .swiper {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .swiper-slide{
+        max-width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .swiper-button-prev,.swiper-button-next{
+       display: none;
+    }    
+
+
+    .newitems-conatiner h3{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 17.45px;
+        max-width: 120px;
+    
+    }
+
+    .werecommend-conatiner h3{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 29.96px;
+        max-width: 423px;
+    }
+
+    .comment-conatiner .commentbox{
+        max-width: 290.41px;
+        margin-bottom: 30px;
+        padding: 30px 30px;
+        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+        position: relative;
+    
+    }
+
+    .commentbox .commentboxChild2{
+        font-weight: 100;
+        font-size: 14px;
+    
+    }
+
+    .comment-conatiner h3{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 17.45px;
+        max-width: 252px;
+    }
+
+
+    .Whychooseus-boxs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .Whychooseus-container h3{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 31.45px;
+        max-width: 290px;
+    
+    }
+
+    .Whychooseus-boxs .Whychooseus-box{
+
+        max-width: 150px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        cursor: pointer;
+      
+    
+    }
+
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        align-items: center;
+        max-width: 500px;
+    }
+
+    .footer-content2{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 200px;
 
     }
 }
